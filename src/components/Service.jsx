@@ -4,6 +4,7 @@ import softwareImage from "../assets/software.jpg";
 import gameImage from "../assets/game.jpg";
 import webdesignImage from "../assets/webdesign.jpg";
 import erpcrmImage from "../assets/erpcrm.png";
+
 const services = [
   {
     id: 1,
@@ -44,11 +45,11 @@ const services = [
 
 const OurServices = () => {
   return (
-    <div className="bg-white font-sans">
+    <div className="bg-[#0a1a2f] text-white font-sans">
       {/* Header */}
-      <section className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white py-20 px-6 text-center">
+      <section className="bg-[#0d2549] py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
-        <p className="text-lg max-w-2xl mx-auto">
+        <p className="text-lg max-w-2xl mx-auto text-gray-300">
           We offer a wide range of technology solutions tailored to help your
           business thrive.
         </p>
@@ -59,7 +60,7 @@ const OurServices = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden"
+            className="bg-[#122b4d] rounded-xl shadow hover:shadow-xl transition overflow-hidden border border-gray-700"
           >
             <img
               src={service.image}
@@ -67,22 +68,24 @@ const OurServices = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-2xl font-semibold mb-2">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <h3 className="text-2xl font-semibold mb-2 text-white">
+                {service.title}
+              </h3>
+              <p className="text-gray-300">{service.description}</p>
             </div>
           </div>
         ))}
       </section>
 
       {/* CTA Section */}
-      <section className="bg-indigo-700 text-white py-16 text-center">
+      <section className="bg-[#0d2549] text-white py-16 text-center">
         <h2 className="text-3xl font-bold mb-4">
           Let’s Build Something Great Together
         </h2>
-        <p className="mb-6 text-lg">
+        <p className="mb-6 text-lg text-gray-300">
           Contact us for custom solutions tailored to your business needs.
         </p>
-        <button className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-full hover:bg-indigo-100 transition">
+        <button className="bg-white text-[#0d2549] font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
           Get in Touch
         </button>
       </section>

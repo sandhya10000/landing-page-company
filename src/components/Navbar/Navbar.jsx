@@ -13,7 +13,7 @@ const menuItems = [
   { id: 5, name: "Contact", link: "/contact" },
   {
     id: 6,
-    name: "Service",
+    name: "Our Services",
     link: "/service",
   },
 ];
