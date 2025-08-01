@@ -38,7 +38,7 @@ const Contact = () => {
                   Call Us
                 </h4>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  +91 12345 67890
+                  +91 9716062985
                 </p>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                   Email
                 </h4>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                  contact@infotech.com
+                  akpstechnology@gmail.com
                 </p>
               </div>
             </div>
