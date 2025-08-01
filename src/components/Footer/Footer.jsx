@@ -9,14 +9,14 @@ const Footer = () => {
         {/* Company Info */}
         <div>
           <h2 className="text-2xl font-bold text-blue-600 mb-2">
-            Infotech <span className="text-gray-700">Solutions</span>
+            AKPS <span className="text-gray-700">TECHNOLOGY PVT LTD.</span>
           </h2>
           <p className="text-sm text-gray-600">
             We build scalable and smart digital solutions tailored to your
             business needs.
           </p>
           <div className="flex space-x-4 mt-4 text-xl text-blue-600">
-            <a href="#">
+            <a href="https://www.linkedin.com/company/akps-technology-pvt-ltd/">
               <FaLinkedin />
             </a>
             <a href="#">
@@ -99,7 +99,7 @@ const Footer = () => {
             <li className="flex items-center gap-2">
               <FiPhone />
               <a href="tel:+911234567890" className="hover:text-blue-600">
-                +91 9065856630
+                +91 9716062985
               </a>
             </li>
             <li className="flex items-center gap-2">
@@ -108,7 +108,7 @@ const Footer = () => {
                 href="mailto:contact@infotech.com"
                 className="hover:text-blue-600"
               >
-                contact@infotech.com
+                @infotech.com
               </a>
             </li>
           </ul>
@@ -117,8 +117,8 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="mt-12 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Infotech Solutions. All rights reserved.{" "}
-        <br />
+        © {new Date().getFullYear()} AKPS TECHNOLOGY PVT LTD. All rights
+        reserved. <br />
         Website crafted by{" "}
         <span className="text-blue-600 font-medium">Sandhya Gupta</span>
       </div>

@@ -20,7 +20,7 @@ const Banner = () => {
           <p className="text-gray-600 dark:text-gray-300 tracking-wide leading-relaxed text-sm sm:text-base">
             At{" "}
             <span className="font-semibold text-gray-800 dark:text-white">
-              Infotech Solutions
+              AKPS TECHNOLOGY PVT LTD
             </span>
             , we deliver modern software, rapid development, and innovative
             design to drive your business forward.

@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/About/About"; // Make sure you created About.jsx
 import Blog from "./components/Blog/Blog";
 import Career from "./components/Career/Career";
+import Service from "./components/Service";
 
 const App = () => {
   const [orderPopup, setOrderPopup] = useState(false);
@@ -33,14 +34,21 @@ const App = () => {
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <BrowserRouter>
         <Navbar handleGetQuote={handleOderPopup} />
+
         <Routes>
           <Route path="/" element={<Banner />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} /> {/* Add this */}
           <Route path="/careers" element={<Career />} />
+          <Route path="/service" element={<Service />} />
           {/* Add more routes here */}
         </Routes>
+        <About />
+        <Career />
+        <Blog />
+        <Contact />
+        <Service />
         <Footer />
       </BrowserRouter>
     </div>

@@ -18,9 +18,10 @@ const About = () => {
         <div>
           <h2 className="text-4xl font-bold text-blue-600 mb-4">About Us</h2>
           <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-            Welcome to <strong>Infotech Solutions</strong>, where innovation
-            meets excellence. We specialize in delivering top-notch digital
-            solutions to empower businesses in a fast-paced, tech-driven world.
+            Welcome to <strong>AKPS TECHNOLOGY PVT LTD</strong>, where
+            innovation meets excellence. We specialize in delivering top-notch
+            digital solutions to empower businesses in a fast-paced, tech-driven
+            world.
           </p>
 
           <ul className="space-y-4 text-gray-700">
